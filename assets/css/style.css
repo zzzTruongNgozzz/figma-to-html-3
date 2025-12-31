@@ -389,10 +389,11 @@ a {
 }
 
 .about__img--big {
+  display: flex;
   width: 512px;
   height: 370px;
   border-radius: 6px;
-  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
   object-fit: cover;
 }
 
@@ -470,4 +471,51 @@ a {
 .team__control {
   margin-top: 38px;
   justify-content: center;
+}
+
+/* ============================== INSTALL MOBILE ========================================================================= */
+.install__inner {
+  margin: 180px 0 85px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  height: 427px;
+  border-radius: 4px;
+  background: #2e80ce;
+}
+
+.install__img {
+  position: absolute;
+  bottom: 0;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+}
+
+.install__content {
+  max-width: 586px;
+}
+
+.install__heading {
+  color: #fff;
+  max-width: 489px;
+}
+
+.install__desc {
+  margin-top: 18px;
+  max-width: 586px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.67; /* 166.667% */
+}
+
+.install__row {
+  margin-top: 38px;
+  display: flex;
+  column-gap: 28px;
+  align-items: center;
 }
